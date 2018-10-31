@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "0.0.1",
+  "description": "using next.js, firebase, semantic-ui",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Hojin Jang",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.4",
+    "firebase": "^5.5.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-optimized-images": "^1.4.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "semantic-ui-react": "^0.83.0",
+    "webpack": "^4.23.1"
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.4.2"
+  }
+}
