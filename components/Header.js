@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import '../semantic/dist/semantic.min.css'
 import { Menu } from 'semantic-ui-react'
 
 const Header = () => (

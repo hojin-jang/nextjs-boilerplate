@@ -1,6 +1,5 @@
 import Layout from '../components/MyLayout.js'
 import loadDB from '../lib/firebase-db'
-import '../semantic/dist/semantic.min.css'
 import { Button } from 'semantic-ui-react'
 
 const Post = ({ item }) => (
